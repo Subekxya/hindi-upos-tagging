@@ -1,0 +1,51 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Training outputs and model checkpoints
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Model weights and large model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pytorch_model.bin
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Dataset files
+data/*.conllu
+data/processed/*.json
